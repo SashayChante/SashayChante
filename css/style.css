@@ -61,13 +61,18 @@ nav {width: 100%; position: fixed absolute;}
  #indexpurplesection {background-color: #920999; background: linear-gradient(180deg,#7a0980 30%, #920999 70%); display: flex; margin: 0; text-align: right; background-image: url(../images/comicsashaysmall.png); background-position: right 0px top 0px;}
  #indexpurplesection p {color:#fff; padding: 60px 60px; text-align: justify;}
  #indexpurplesection img{width: 50%;height: 100%;}
- 
- 
  .instawidgetbox {width: 100%; padding: 20px 0px 10px 0px; margin-bottom: 30px; background-color: #e0218a; text-align: center;}
  
+ .aboutsection {width:"100%"; height: "auto"; padding-left: 40px; padding-right: 40px; text-align: center;}
+ .aboutsection img {margin-right: 30px; margin-bottom: 30px; float: left;}
+ .aboutsection p {color:#920999; text-align: justify;}
+
+ .signaturesection {width:"100%"; padding-left: 40px; padding-right: 40px;}
+
+
  footer {position: absolute fixed; width: 100%; height: 200px; text-align: center; justify-content: center;}
-.FooterIconboxes {display: flex; flex-direction: row ; justify-content: center; width: 100%;}
-.FooterIconboxes img {height:65px; width: auto; }
+.FooterIconboxes {display: flex; flex-direction: row; justify-content: center; width: 100%;}
+.FooterIconboxes img {height:65px; width: auto;}
 
 .pinkbox {
     z-index: 1000; display: block; border: solid green 2px; background-color: #e0218a; margin-top: -50px; width: 100%; height:50px; position: absolute;
