@@ -112,3 +112,33 @@ nav {width: 100%; position: fixed absolute;}
   @media screen and (max-width: 374px) {#indexsection1 h1{font-size: 1.1rem; line-height: 22px;}}
   @media screen and (max-width: 351px) {#indexpinksection p {padding: 10px 20px;} #indexpurplesection p {padding: 10px 20px;} body {font-size: .4.5em;}}
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
+
+
+
+  div.gallery {background-color: #920999; border-radius: 5%;}  
+  div.gallery:hover {border: 2px solid #920999;}  
+  div.gallery img {width: 100%; height: auto; border-radius: 5% 5% 0% 0%;}  
+  div.desc {padding: 7px 7px 15px 7px; text-align: center; color: #fff; font-size: .80rem;}
+  
+  * {box-sizing: border-box;}
+  
+  .responsive {padding: 0 6px; float: left; width: 24.99999%; margin-bottom: 20px;}
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
