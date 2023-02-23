@@ -62,7 +62,7 @@
 
  
     <div id="indexsection1">
-        <h1 style="color:#00a3ff">Email Sashay here for your booking enquiry</span></h1>
+        <h1 style="color:#00a3ff">Email Me here for your booking enquiry</span></h1>
     </div> 
 
 
@@ -71,19 +71,22 @@
             <form action='https://getform.io/f/e4ffe4cf-4e16-4749-90e7-893bb7392e78' method='POST' enctype='multipart/form-data'>
                 <div id="form-title"></div>
                 <!--HEADING - ENTER PERSONAL DETAILS-->
-                    <h1 style="font-size: 1.5rem; color: #00a3ff">Select Date of Event and Package</span></h1>
+                <div id="personaldetailsheading"></div>
+                    <script type="text/babel">
+                        function PersonalDetails() {return <h6 class="form-title" required>SELECT DATE OF EVENT AND PACKAGE</h6>}
+                        ReactDOM.render(<PersonalDetails />, document.getElementById('personaldetailsheading'))
+                    </script>
 
                 <!--CALENDAR DATE SELECTOR-->
-                    <div class="small">Select Date youd like your event on</div>
+                
                     <input type="date" name="date" id="date">
                         <script type="text/babel">
                             function Date() {return <input type="text" name="date" id="date"/>}
                             ReactDOM.render(<Date />, document.getElementById('date'))
                         </script>
-
+                    <br>
 
                 <!--SERVICES DROP DOWN MENU-->
-                <div class="small">Select Package</div>
                     <select id="service" name="service">
                         <option value="Default">Select Performance Package:</option>
                         <option value="Show">Show</option>
@@ -96,7 +99,7 @@
                     <script type="text/babel">
                     ReactDOM.render(<Service />, document.getElementById('service'))
                     </script>
-                    
+                    <div class="small">All sessions are to be paid to Tanjo in cash at booking</div>
 
                     <div id="bookingdefaultcontainer"></div>
                     <script type="text/babel">
