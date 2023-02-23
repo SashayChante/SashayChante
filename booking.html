@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="all" href="js/script.js">
     <link rel="stylesheet" type="text/css" media="all" href="js/form.js">
-
+    <link rel="icon" type="image/x-icon" href="/images/SashayIcon.svg"> 
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -62,7 +62,7 @@
 
  
     <div id="indexsection1">
-        <h1 style="color:#00a3ff">Email Me here for your booking enquiry</span></h1>
+        <h1 style="color:#00a3ff">Book Me</span></h1>
     </div> 
 
 
@@ -79,11 +79,12 @@
 
                 <!--CALENDAR DATE SELECTOR-->
                 
-                    <input type="date" name="date" id="date">
+                    <input type="date" name="date" class="date">
                         <script type="text/babel">
                             function Date() {return <input type="text" name="date" id="date"/>}
                             ReactDOM.render(<Date />, document.getElementById('date'))
                         </script>
+                    
                     <br>
 
                 <!--SERVICES DROP DOWN MENU-->
@@ -103,7 +104,7 @@
 
                     <div id="bookingdefaultcontainer"></div>
                     <script type="text/babel">
-                        function MessageContainer() {return <input type="text" name="message" id="message" value="PERSONAL DETAILS"/>}
+                        function MessageContainer() {return <input type="text" name="message" id="message" value="PERSONAL"/>}
                         ReactDOM.render(<MessageContainer />, document.getElementById('bookingdefaultcontainer'))
                     </script>
 
@@ -148,12 +149,6 @@
             </form>
         </div>
     </div>
-
-
-
-
-
-
 
     <footer>
         <img src="images/logos_headings/SashayLogoPurple.png" height="35px";>
