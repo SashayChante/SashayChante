@@ -162,7 +162,7 @@ div.desc {padding: 7px 7px 15px 7px; text-align: center; color: #fff; font-size:
   /*x2 CONTAINERS THAT HOLD LEFT AND RIGHT CONTAINERS*/
   .signup-form {margin: 0px; width: 100%; padding-left: 0px;}
   .register-form {width: 100%; margin-right: 20px;}
-  #form-group, #form-group2, #form-group3, #tanningoptions, #personaldetailsheading, #date {position: relative; margin-bottom: 0px; overflow: hidden;}
+  #form-group, #form-group2, #form-group3, #tanningoptions, #personaldetailsheading, #datedateofevent {position: relative; margin-bottom: 0px; overflow: hidden;}
   #form-group:last-child {margin-bottom: 0;}
   .small {font-size: .6em; color:#00a3ff;margin-bottom: 5px; margin-top:7px;}
   /*ICON PLACEMENTS*/
