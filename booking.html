@@ -7,6 +7,11 @@
     <!--FOLDERS CODE IS LINKED TOO-->
     <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="all" href="js/script.js">
+    <link rel="stylesheet" type="text/css" media="all" href="js/form.js">
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!--FONTS FOR WEB-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,8 +62,95 @@
 
  
     <div id="indexsection1">
-        <h1 style="color:#00a3ff">Book Me</span></h1>
+        <h1 style="color:#00a3ff">Email Sashay here for your booking enquiry</span></h1>
     </div> 
+
+
+    <div class="formcontainer" >
+        <div class="signup-form">
+            <form action='https://getform.io/f/e4ffe4cf-4e16-4749-90e7-893bb7392e78' method='POST' enctype='multipart/form-data'>
+                <div id="form-title"></div>
+                <!--HEADING - ENTER PERSONAL DETAILS-->
+                    <h1 style="font-size: 1.5rem; color: #00a3ff">Select Date of Event and Package</span></h1>
+
+                <!--CALENDAR DATE SELECTOR-->
+                    <div class="small">Select Date youd like your event on</div>
+                    <input type="date" name="date" id="date">
+                        <script type="text/babel">
+                            function Date() {return <input type="text" name="date" id="date"/>}
+                            ReactDOM.render(<Date />, document.getElementById('date'))
+                        </script>
+
+
+                <!--SERVICES DROP DOWN MENU-->
+                <div class="small">Select Package</div>
+                    <select id="service" name="service">
+                        <option value="Default">Select Performance Package:</option>
+                        <option value="Show">Show</option>
+                        <option value="Party">Party</option>
+                        <option value="Hen's Do">Hen's Do</option>
+                        <option value="Corporate Function">Corporate Function</option>
+                        <option value="Fundraiser">Fundraiser</option>
+                        <option value="Special Appearance">Special Appearance</option>
+                    </select>
+                    <script type="text/babel">
+                    ReactDOM.render(<Service />, document.getElementById('service'))
+                    </script>
+                    
+
+                    <div id="bookingdefaultcontainer"></div>
+                    <script type="text/babel">
+                        function MessageContainer() {return <input type="text" name="message" id="message" value="PERSONAL DETAILS"/>}
+                        ReactDOM.render(<MessageContainer />, document.getElementById('bookingdefaultcontainer'))
+                    </script>
+
+
+                <!--ENTER FIRST AND LAST NAME-->
+                    <div id="form-group"></div>
+                        <script type="text/babel">
+                            function Name() {return <input type="text" name="name" id="name" placeholder="Your Name" required/>}
+                            ReactDOM.render(<Name />, document.getElementById('form-group'))
+                        </script>
+                        <div class="small">First and Last Name</div>
+                
+                <!--ENTER EMAIL ADDRESS-->
+                    <div id="form-group2"></div>
+                        <script type="text/babel">
+                            function Email() {return <input type="email" name="email" id="email" placeholder="Your Email" regex="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" required />}
+                            ReactDOM.render(<Email />, document.getElementById('form-group2'))
+                        </script>
+                        <div class="small">Example: xxx@gmail.com, xxx@hotmail.com, xxx@mywhitecliffe.com</div>
+
+                <!--ENTER PHONE NUMBER-->
+                    <div id="form-group3"></div>
+                        <script type="text/babel">
+                            function Phone() {return <input type="tel" name="phone" id="phone" placeholder="021 XXX XXXX" pattern="[\d]{3} [\d]{3} [\d]{4<}" required/>}
+                            ReactDOM.render(<Phone />, document.getElementById('form-group3'))
+                                document.getElementById("phone").addEventListener("keydown", function(e) {
+                                const tel = this.value;
+                                    if ((tel.length == 14 || e.which == 32) & e.which !== 8) e.preventDefault();
+                                    if ((tel.length == 3 || tel.length == 7) && e.which !== 8)
+                                        this.value = this.value + " ";
+                                });
+                        </script>
+                        <div class="small">Example:(021 000 0000)</div>
+
+
+                <button class="form-submit">SEND REQUEST</button>
+                <script type="text/babel">
+                    function SubmitButton() {return <button type="submit" class="form-submit" href="mailto:tanjotanning@gmail.com" method='POST' name="submit" id="submit" value="Register"/>}
+                    ReactDOM.render(<SubmitButton />, document.getElementsByClassName('form-submit'))
+                </script>
+                <br><br><div class="small">Your booking request will be sent to Tanjo and you should receive an email reply shortly. Should the time you have requested be booked Tanjo will look at booking the closest appt time available.</div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
 
     <footer>
         <img src="images/logos_headings/SashayLogoPurple.png" height="35px";>
