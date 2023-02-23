@@ -93,7 +93,7 @@ nav {width: 100%; position: fixed absolute;}
   @media screen and (max-width: 965px) {body {font-size: 1em;}}
   @media screen and (max-width: 920px) {#indexsection1 span {display: block;} .indexpinksection p {line-height: 10px;}}
   @media screen and (max-width: 868px) {p {line-height: 15px;}}
-  @media screen and (max-width: 785px) {body {font-size: .8em;} .wave2 {height: 100px; background: url(../images/wave4.svg);}}
+  @media screen and (max-width: 785px) {body {font-size: .8em;} .wave2 {height: 60px; background: url(../images/wave4.svg);}}
   @media screen and (max-width: 682px) {body {font-size: .7em;}}
   @media screen and (max-width: 682px) {#indexpinksection p {padding: 40px 40px;} #indexpurplesection p {padding: 40px 40px;} body {font-size: .8em;}}
   @media screen and (max-width: 664px) {.sidebarIconToggle {top: 30px; left: 30px; height: 25px; width: 35px;}}
@@ -115,8 +115,8 @@ nav {width: 100%; position: fixed absolute;}
   
   @media screen and (max-width: 374px) {#indexsection1 h1{font-size: 1.1rem; line-height: 22px;}}
 
-@media screen and (max-width: 368px) {#indexpinksection p {padding: 10px 20px; line-height:11px ;} #indexpurplesection p {padding: 10px 20px;} body {font-size: .4.5em;} footer img {height:30px;}}
-
+  @media screen and (max-width: 368px) {#indexpinksection p {padding: 10px 20px; line-height:11px ;} #indexpurplesection p {padding: 10px 20px;} body {font-size: .4.5em;} footer img {height:30px;}}
+  
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
   @media screen and (max-width: 324px){#indexpinksection p {line-height: 9px;} #indexpurplesection p {line-height: 9px;}}
 
