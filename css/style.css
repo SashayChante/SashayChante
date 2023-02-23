@@ -115,7 +115,8 @@ nav {width: 100%; position: fixed absolute;}
   
   @media screen and (max-width: 374px) {#indexsection1 h1{font-size: 1.1rem; line-height: 22px;}}
 
-  @media screen and (max-width: 368px) {#indexpinksection p {padding: 10px 20px; line-height:11px ;} #indexpurplesection p {padding: 10px 20px;} body {font-size: .4.5em;}}
+@media screen and (max-width: 368px) {#indexpinksection p {padding: 10px 20px; line-height:11px ;} #indexpurplesection p {padding: 10px 20px;} body {font-size: .4.5em;} footer img {height:30px;}}
+
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
   @media screen and (max-width: 324px){#indexpinksection p {line-height: 9px;} #indexpurplesection p {line-height: 9px;}}
 
