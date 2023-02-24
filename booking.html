@@ -78,7 +78,7 @@
                     </script>
 
                 <!--CALENDAR DATE SELECTOR-->
-                
+                <div class="small">Date of your Event</div>
                     <input type="date" name="date" class="date">
                         <script type="text/babel">
                             function Date() {return <input type="text" name="date" id="date"/>}
@@ -88,6 +88,7 @@
                     <br>
 
                 <!--SERVICES DROP DOWN MENU-->
+                <div class="small">Sashay Chante Performance Package you'd like</div>
                     <select id="service" name="service">
                         <option value="Default">Select Performance Package:</option>
                         <option value="Show">Show</option>
@@ -100,15 +101,8 @@
                     <script type="text/babel">
                     ReactDOM.render(<Service />, document.getElementById('service'))
                     </script>
-                    <div class="small">All sessions are to be paid to Tanjo in cash at booking</div>
 
-                    <div id="bookingdefaultcontainer"></div>
-                    <script type="text/babel">
-                        function MessageContainer() {return <input type="text" name="message" id="message" value="PERSONAL"/>}
-                        ReactDOM.render(<MessageContainer />, document.getElementById('bookingdefaultcontainer'))
-                    </script>
-
-
+                <div class="formblueboxtitle">PERSONAL INFORMATION</div>
                 <!--ENTER FIRST AND LAST NAME-->
                     <div id="form-group"></div>
                         <script type="text/babel">
@@ -123,7 +117,7 @@
                             function Email() {return <input type="email" name="email" id="email" placeholder="Your Email" regex="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" required />}
                             ReactDOM.render(<Email />, document.getElementById('form-group2'))
                         </script>
-                        <div class="small">Example: xxx@gmail.com, xxx@hotmail.com, xxx@mywhitecliffe.com</div>
+                        <div class="small">Example: xxx@gmail.com, xxx@hotmail.com </div>
 
                 <!--ENTER PHONE NUMBER-->
                     <div id="form-group3"></div>
@@ -138,17 +132,29 @@
                                 });
                         </script>
                         <div class="small">Example:(021 000 0000)</div>
-
+                    
+                    <div class="formblueboxtitle">ADD MESSAGE</div>
+                        <div id="messagecontainer"></div>
+                            <script type="text/babel">
+                                function MessageContainer() {return <textarea type="text" name="message" id="message" placeholder="Message" required/>}
+                                ReactDOM.render(<MessageContainer />, document.getElementById('messagecontainer'))
+                            </script>
 
                 <button class="form-submit">SEND REQUEST</button>
                 <script type="text/babel">
                     function SubmitButton() {return <button type="submit" class="form-submit" href="mailto:tanjotanning@gmail.com" method='POST' name="submit" id="submit" value="Register"/>}
                     ReactDOM.render(<SubmitButton />, document.getElementsByClassName('form-submit'))
                 </script>
-                <br><br><div class="small">Your booking request will be sent to Tanjo and you should receive an email reply shortly. Should the time you have requested be booked Tanjo will look at booking the closest appt time available.</div>
+                <br><br><div class="small">xxxxx</div>
             </form>
         </div>
     </div>
+
+
+
+
+
+
 
     <footer>
         <img src="images/logos_headings/SashayLogoPurple.png" height="35px";>
@@ -162,4 +168,5 @@
     </footer>
 
 </body>
+
 </html>
