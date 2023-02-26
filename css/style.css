@@ -188,10 +188,10 @@ nav {width: 100%; position: fixed absolute;}
   @media screen and (max-width: 414px) {body {font-size: .5em;} #indexsection1 h1{font-size: 1.3rem; line-height: 24px;} #indexpurplesection {background-image: url(../images/comicsashaysmallest.png);} .wave2 {background: url(../images/wave4.svg) repeat-x; position: absolute; bottom: 0; width: 6400px; height: 44px; animation: wave 8s cubic-bezier(0.50, 0.50, 0.50, 0.50) infinite; transform: translate3d(0, 0, 0);} @keyframes swell2 {0%, 100% {transform: translate3d(0, 3px, 0);} 50% {transform: translate3d (0, 5px, 0);}}}
 /*300*/
   @media screen and (max-width: 374px) {#indexsection1 h1{font-size: 1.1rem; line-height: 22px;}}
-  @media screen and (max-width: 368px) {.square p {line-height:11px;} body {font-size: .4.5em;} footer img {height:30px;} .instawidgetbox img{height: 40px;} .formblueboxtitle{font-size: .6rem;} h6 {font-size: .5rem;}}
+  @media screen and (max-width: 368px) {.square p {line-height:9px;} body {font-size: .4.5em;} footer img {height:30px;} .instawidgetbox img{height: 40px;} .formblueboxtitle{font-size: .6rem;} h6 {font-size: .5rem;}}
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
   @media screen and (max-width: 324px) {.square p {line-height: 9px;}}
-  @media screen and (max-width: 300px) {.square p {line-height: 7px;}}
+  @media screen and (max-width: 300px) {.square p {line-height: 6.5px;}}
 
 
   
