@@ -62,7 +62,7 @@ nav {width: 100%; position: fixed absolute;}
   #indexsection1 h1{font-size: 2rem; color:#fff; line-height: 35px; text-align: center;}
   
   .grid {display: grid; grid-template-columns: repeat(2, 1fr); gap: 0%; position: absolute; z-index: 1;}
-  .square {aspect-ratio: 1/ 1; display: flex; align-items: center; padding: 10%; color: #fff;}
+  .square {aspect-ratio: 1/ 1; display: flex; align-items: center; padding: 5% 10%; color: #fff;}
   .square p {text-align: justify;}
   .instawidgetbox {width: 100%; padding: 20px 0px 10px 0px; margin-bottom: 30px; background-color: #e0218a; text-align: center;}
  
@@ -192,7 +192,8 @@ nav {width: 100%; position: fixed absolute;}
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
   @media screen and (max-width: 324px) {.square p {line-height: 9px;}}
   @media screen and (max-width: 300px) {.square p {line-height: 6.5px;}}
-
+/*200*/
+  @media screen and (max-width: 280px) {.square p {font-size-adjust: .3em;}}
 
   
   
