@@ -191,7 +191,7 @@ nav {width: 100%; position: fixed absolute;}
   @media screen and (max-width: 368px) {.square p {line-height:9px;} body {font-size: .4.5em;} footer img {height:30px;} .instawidgetbox img{height: 40px;} .formblueboxtitle{font-size: .6rem;} h6 {font-size: .5rem;}}
   @media screen and (max-width: 340px) {body {font-size: .4em;} #indexsection1 h1{font-size: 1rem; line-height: 20px;}}
   @media screen and (max-width: 324px) {.square p {line-height: 9px;}}
-  @media screen and (max-width: 300px) {.square p {line-height: 6.5px;}}
+  @media screen and (max-width: 300px) {.square p {line-height: 6.5px;} footer img {height:20px;}}
 /*200*/
   @media screen and (max-width: 280px) {.square p {font-size-adjust: .3em;}}
 
