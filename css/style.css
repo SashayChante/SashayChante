@@ -67,10 +67,9 @@ nav {width: 100%; position: fixed absolute;}
   .instawidgetbox {width: 100%; padding: 20px 0px 10px 0px; margin-bottom: 30px; background-color: #e0218a; text-align: center;}
  
 /*ABOUT PAGE LAYOUT*/
- .aboutsection {width:"100%"; height: "auto"; padding-left: 40px; padding-right: 40px; text-align: center;}
- .aboutsection img {margin-right: 30px; margin-bottom: 30px; float: left;}
+ .aboutsection {width:"100%";  padding-left: 60px; padding-right: 60px; text-align: center; margin-bottom: 60px;}
+ .aboutsection img {margin-right: 50px; margin-bottom: 10px; float: left;}
  .aboutsection p {color:#920999; text-align: justify;}
- .signaturesection {width:"100%"; padding-left: 40px; padding-right: 40px;}
 
 /*GALLERY PAGE LAYOUT*/
   div.gallery {background-color: #920999; border-radius: 5%;}  
@@ -84,7 +83,7 @@ nav {width: 100%; position: fixed absolute;}
 /*BOOKING PAGE*/
   .contactcontainer {width: 100%; height: 700px; display: flex; flex-direction: row; padding: 0 60px 0 60px;}
   .contactcontainer iframe {width: 49%; height: auto; border-radius: 20px; margin-right: 20px;}
-  .formcontainer {display: flex; padding: 60px 60px; flex-direction: row; align-items: center; width: 90%; height: 900px; justify-content: space-around; margin: 0 auto; background: rgb(255, 255, 255); border-radius: 20px; box-shadow: 0px 15px 16px 0.17px rgba(0, 0, 0, 0.05);}
+  .formcontainer {display: flex; padding: 60px 60px; flex-direction: row; align-items: center; width: 90%; height: 900px; justify-content: space-around; margin: 0 auto 40px auto; background: rgb(255, 255, 255); border-radius: 20px; box-shadow: 0px 15px 16px 0.17px rgba(0, 0, 0, 0.05);}
   .overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); backdrop-filter: blur(3px); z-index: 5;}
   .signup { margin-bottom: 150px; }
 
@@ -168,16 +167,16 @@ nav {width: 100%; position: fixed absolute;}
 /*800*/  
   @media screen and (max-width: 868px) {.square p {font-size: .8em;}}
 /*700*/  
-  @media screen and (max-width: 785px) {body {font-size: .8em;} .wave2 {height: 60px; background: url(../images/wave4.svg);}}
+  @media screen and (max-width: 785px) {body {font-size: .8em;} .wave2 {height: 60px; background: url(../images/wave4.svg);}.formcontainer {padding: 40px 60px; height: auto;} }
   @media only screen and (max-width: 700px) {.responsive { width: 49.99999%; margin: 6px 0; }} 
 /*600*/
-  @media screen and (max-width: 682px) {body {font-size: .6em;} .square p {font-size: .8em; line-height: 20px;}}
+  @media screen and (max-width: 682px) {body {font-size: .6em;} .square p { line-height: 20px;}}
   @media screen and (max-width: 664px) {.sidebarIconToggle {top: 30px; left: 30px; height: 25px; width: 35px;}}
   @media screen and (max-width: 602px) {body {font-size: .6em;} .wave5 {background: url(../images/wave5.svg) repeat-x; position: absolute; bottom: 0; width: 6400px; height: 35px; animation: wave 30s cubic-bezier(0.50, 0.50, 0.50, 0.50) infinite; transform: translate3d(0, 0, 0);}
         @keyframes swell2 {0%, 100% {transform: translate3d(0, 3px, 0);} 50% {transform: translate3d (0, 5px, 0);}}}
 /*500*/
   @media screen and (max-width: 586px) {body {font-size: .7em;} #indexsection1 h1{font-size: 1.3rem; line-height: 24px;}}
-  @media screen and (max-width: 555px) {.sidebarIconToggle {top: 25px; left: 25px; height: 15px; width: 35px;}}
+  @media screen and (max-width: 555px) {.sidebarIconToggle {top: 25px; left: 25px; height: 15px; width: 35px;} .square p {line-height: 16px;}}
   @media screen and (max-width: 516px) {#indexsection1 h1{font-size: 1.5rem; line-height: 30px;} body {font-size: .5em;}} 
   @media screen and (max-width: 586px) { #indexsection1 h1{font-size: 1.3rem; line-height: 24px;}}
   @media only screen and (max-width: 500px) {.responsive {width: 100%;} } 
